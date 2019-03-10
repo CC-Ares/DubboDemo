@@ -1,0 +1,8 @@
+server:
+  port: 7003
+spring:
+  application:
+    name: demo-provider
+  dubbo:
+    server: true
+    registry: zookeeper://192.168.128.129:2181
